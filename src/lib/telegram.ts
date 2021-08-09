@@ -105,7 +105,7 @@ export async function useWebhook(req: NowRequest, res: NowResponse) {
 		}
 
 		// call bot commands and middlware
-		//botUtils();
+		botUtils();
 
 		// console.log("webhook already defined");
 		// console.log("request method: ", req.method);
