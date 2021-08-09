@@ -24,7 +24,7 @@ function botUtils() {
 // 		return ctx.reply("This is a test bot.");
 // 	});
 
-//	bot.command("about", about()).command("sendkey", sendkey()).on("text", greeting());
+	bot.command("about", about()).command("sendkey", sendkey()).on("text", greeting());
 }
 
 async function localBot() {
@@ -105,7 +105,7 @@ export async function useWebhook(req: NowRequest, res: NowResponse) {
 		}
 
 		// call bot commands and middlware
-		botUtils();
+		//botUtils();
 
 		// console.log("webhook already defined");
 		// console.log("request method: ", req.method);
